@@ -14,7 +14,7 @@ class Directory extends Component {
         this.setState({selectedCampsite: campsite});
     }
 
-    renderSelectedCampsite(campsite) {
+    /* renderSelectedCampsite(campsite) {
         if (campsite) {
             return (
                 <Card>
@@ -27,7 +27,7 @@ class Directory extends Component {
             );
         }
         return <div />;
-    }
+    } */
 
     render() {
         const directory = this.props.campsites.map(campsite => {
